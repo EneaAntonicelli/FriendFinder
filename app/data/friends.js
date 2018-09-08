@@ -11,13 +11,13 @@ var friends = [
 	},
 	{
 		name: 'Elaine Haebalagi',
-		photo: 'https://pbs.twimg.com/media/C3V41ozVUAIuyup.jpg',
+		photo: 'http://99people.com/newsletter/011710/img/image005.jpg',
 		scores: [3, 1, 3, 5, 2, 3, 2, 2, 5, 5]
     },
     {
 		name: 'Jordan Shnitzenweiner',
 		photo: 'https://www.nowplayingutah.com/wp-content/uploads/sites/www.nowplayingutah.com/images/2017/12/event-featured-epaniza-1514391103-400x398.jpeg',
-		scores: [3, 1, 3, 5, 2, 3, 2, 2, 5, 5]
+		scores: [1, 2, 3, 4, 2, 3, 3, 3, 3, 3]
 	}
 ];
 
