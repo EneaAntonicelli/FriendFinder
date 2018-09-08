@@ -1,0 +1,15 @@
+.modal {
+    max-height: none;
+    width: 50%;
+}
+#friendImage {
+    max-width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50px;
+};
+
+.modal .modal-content {
+    padding: 7px 40px 7px 40px;
+};
+

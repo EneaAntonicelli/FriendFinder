@@ -2,39 +2,38 @@ var friends = require("../data/friends");
 
 module.exports = function(app) {
 
-    app.get("/api/friends", function(req, res) {
-        res.json(friends);
-      });
-};
+  app.get("/api/friends", function(req, res) {
+    res.json(friends);
+  });
 
-app.post('/api/friends', function(req, res) {
-    
-    var userInput = req.body;
-    var userResponses = userInput.scores;
-    
+  app.post("/api/friends", function(req, res) {
 
+    var user = req.body;
 
-    var matchName = '';
-    var matchPhoto = '';
-    var totalDifference = 10000; 
-
-    for (var i = 0; i < friends.length; i++) {
-    
-        var diff = 0;
-        for (var j = 0; j < userResponses.length; j++) {
-            diff += Math.abs(friends[i].scores[j] - userResponses[j]);
-        }
-        
-        if (diff < totalDifference) {
-
-            totalDifference = diff;
-            matchName = friends[i].name;
-            matchPhoto = friends[i].photo;
-        }
+    for(var i = 0; i < user.scores.length; i++) {
+      user.scores[i] = parseInt(user.scores[i]);
     }
 
-    friends.push(userInput);
+    var defaultMatch = 0;
+    var minimumDifference = 10;
+// SET THE INITIAL DIFFERENCE TO 0
+    for(var i = 0; i < friends.length; i++) {
+      var totalDifference = 0;
 
+      for(var j = 0; j < friends[i].scores.length; j++) {
+        var difference = Math.abs(user.scores[j] - friends[i].scores[j]);
+        totalDifference += difference;
+      }
 
-    res.json({status: 'OK', matchName: matchName, matchPhoto: matchPhoto});
-});
+      if(totalDifference < minimumDifference) {
+        defaultMatch = i;
+        minimumDifference = totalDifference;
+      }
+    }
+
+    friends.push(user);
+
+    res.json(friends[defaultMatch]);
+  });
+
+};
