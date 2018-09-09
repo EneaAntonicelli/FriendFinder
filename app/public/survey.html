@@ -25,7 +25,7 @@
 
   <body>
 
-    <div class='container'>
+    <div class='container' id="surveyContainer">
 
         <div class='row'>
             <div class='col s12 m12 center-align'>
@@ -43,6 +43,14 @@
                     <div class="section">
                         <h4>About You</h4>
                         <div class="divider"></div>
+                        <button    
+
+                        class="waves-effect waves-light btn-small" 
+                        id="seed" 
+                        type="button">
+                        Seed
+
+                    </button>
                     </div>
 
                     <div class="row">
@@ -244,6 +252,16 @@
                         Match Me!
 
                     </button>
+
+                    <button    
+
+                        class="waves-effect waves-light btn-small" 
+                        id="goHome" 
+                        type="button" 
+                        onclick="window.location.href='./home.html'" >
+                        Home
+
+                    </button>
                     
                     </div>
 
@@ -261,7 +279,7 @@
 
                                 <div class="card-content">
                                     <span   class="card-title activator grey-text text-darken-4">
-                                            Best Match: 
+                                            <h4>Best Match:</h4>  
                                             <span id='modalArea'></span>
                                             <i class="material-icons right">more_vert</i>
                                     </span>

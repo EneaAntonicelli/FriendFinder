@@ -1,5 +1,21 @@
 $(document).ready(function () {
 
+	$('#seed').click(function(){
+		$('#nameInput').val('Kaan');
+		$('#imageInput').val('https://cdn-images-1.medium.com/max/1600/1*0OHdmdWZx4vSxgWhhgAB0Q.jpeg');
+		$("#question1").val(2),
+		$("#question2").val(1),
+		$("#question3").val(2),
+		$("#question4").val(3),
+		$("#question5").val(5),
+		$("#question6").val(4),
+		$("#question7").val(3),
+		$("#question8").val(5),
+		$("#question9").val(3),
+		$("#question10").val(5)
+	});
+
+
 	$("#submit").click(function () {
 		event.preventDefault();
 
