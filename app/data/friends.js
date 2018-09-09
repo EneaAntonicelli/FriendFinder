@@ -16,7 +16,7 @@ var friends = [
     },
     {
 		name: 'Jordan Shnitzenweiner',
-		photo: 'https://www.nowplayingutah.com/wp-content/uploads/sites/www.nowplayingutah.com/images/2017/12/event-featured-epaniza-1514391103-400x398.jpeg',
+		photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7op9-pNWbegP0sdqaA_eAFc9Md4Wv9HQ1VfexLJsOuOyXQxQw',
 		scores: [1, 2, 3, 4, 2, 3, 3, 3, 3, 3]
 	}
 ];

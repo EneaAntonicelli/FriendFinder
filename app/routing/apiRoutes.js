@@ -13,10 +13,10 @@ module.exports = function(app) {
     for(var i = 0; i < user.scores.length; i++) {
       user.scores[i] = parseInt(user.scores[i]);
     }
-
+ 
     var defaultMatch = 0;
     var minimumDifference = 10;
-// SET THE INITIAL DIFFERENCE TO 0
+
     for(var i = 0; i < friends.length; i++) {
       var totalDifference = 0;
 
