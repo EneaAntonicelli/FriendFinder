@@ -51,6 +51,7 @@ header > nav {
 }
 
 main {
+    display: flex;
     flex: 1 0 auto;
     background-color: #C2E3F4;
 }
@@ -105,6 +106,7 @@ main h2 {
 
 #homeContainer {
     display: flex;
+    align-self: center;
 }
 #homeMainRow {
     width: 100%;
