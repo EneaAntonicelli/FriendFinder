@@ -32,6 +32,13 @@ header {
 header > nav {
     height: 100%;
 }
+
+.navLink:hover {
+    opacity: .5;
+}
+.wrap {
+    background-color: #030305;
+}
 #homeImage {
     display: flex;
     max-width: 125px;
@@ -42,6 +49,7 @@ header > nav {
 
 main {
     flex: 1 0 auto;
+    background-color: #C2E3F4;
 }
 
 main h1 {
@@ -69,9 +77,15 @@ main h2 {
 
 .mainpanel{
    margin: 50px;
+   background-color: white;
 }
 
 #mainpanel-content {
     margin: 50px;
     padding: 20px;
+}
+
+.footer-copyright {
+    background-color: #EFB730 !important;
+    color: black !important;
 }
