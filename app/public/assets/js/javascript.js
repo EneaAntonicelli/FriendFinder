@@ -39,6 +39,8 @@ $(document).ready(function () {
 				$("#modal1").modal('open');
 				$("#modalArea").empty();
 				$("#modalArea").text(data.name);
+				$("#cardReveal").text(data.reveal);
+				$("#matchedFriendLink").attr({"href": data.link , "target":"_blank"});
 				$("#friendImage").attr("src", data.photo);
 			});
 		}
