@@ -4,8 +4,6 @@
 
 UC Davis Coding BootCamp - Week 13 
 
-A compatibility-based "FriendFinder" application -- 
-
 The application takes user input in the form of a survey. It requires the user to input their name, a link to the image they would like to use, and an answer to 10 questions.The app will then display the name and picture of the user with the best overall match.
 
 Please feel free to preview the site here:
