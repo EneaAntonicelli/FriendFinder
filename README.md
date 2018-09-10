@@ -4,7 +4,9 @@
 
 UC Davis Coding BootCamp - Week 13 
 
-The application takes user input in the form of a survey. It requires the user to input their name, a link to the image they would like to use, and an answer to 10 questions.The app will then display the name and picture of the user with the best overall match.
+The application takes user input in the form of a survey. It requires the user to input their name, a link to the image they would like to use, and an answer to 10 questions.The app will then display the name and picture of the user with the best overall match. 
+
+There is a seed button included for anyone that wants to generate a mock survey with pre-defined values.
 
 Please feel free to preview the site here:
 https://intense-thicket-62994.herokuapp.com/
