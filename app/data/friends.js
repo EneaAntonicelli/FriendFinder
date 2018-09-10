@@ -27,7 +27,14 @@ var friends = [
 		scores: [1, 2, 3, 4, 2, 3, 3, 3, 3, 3],
 		reveal: "Jordan owns a collection of sun dried hotdogs. He has developed a method of drying and storing them that completely eliminates foul odors.",
 		link: 'https://github.com/jschneid94'
-	}
+	},
+	{
+		name: 'Kaan Cusack',
+		photo: 'https://pbs.twimg.com/media/DAumpC_UIAA9oiJ.jpg',
+		scores: [5, 5, 3, 2, 1, 4, 1, 3, 4, 2],
+		reveal: "Kaan’s passion in life is to shave random animal’s bellies. In 1992 he was charged with the unauthorized shaving of 16 dogs and three cats. The animals were being kept at the PetSmart adoption center in Van Nuys California. In 2001, Kaan managed to shave the belly of a pot belly pig named Rosa who was left alone for “less than 5 minutes”, according to statements from her owner.. Kaan is registered under Shaven’s Law and currently resides in Sacramento California.",
+		link: 'https://github.com/kaan14'
+    }
 ];
 
 
