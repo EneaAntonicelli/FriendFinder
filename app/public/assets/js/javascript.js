@@ -3,16 +3,16 @@ $(document).ready(function () {
 	$('#seed').click(function(){
 		$('#nameInput').val('Kaan');
 		$('#imageInput').val('https://cdn-images-1.medium.com/max/1600/1*0OHdmdWZx4vSxgWhhgAB0Q.jpeg');
-		$("#question1").val(2),
-		$("#question2").val(1),
-		$("#question3").val(2),
-		$("#question4").val(3),
-		$("#question5").val(5),
-		$("#question6").val(4),
-		$("#question7").val(3),
-		$("#question8").val(5),
-		$("#question9").val(3),
-		$("#question10").val(5)
+		$("#question1").val(Math.floor(Math.random() * 5) + 1),
+		$("#question2").val(Math.floor(Math.random() * 5) + 1),
+		$("#question3").val(Math.floor(Math.random() * 5) + 1),
+		$("#question4").val(Math.floor(Math.random() * 5) + 1),
+		$("#question5").val(Math.floor(Math.random() * 5) + 1),
+		$("#question6").val(Math.floor(Math.random() * 5) + 1),
+		$("#question7").val(Math.floor(Math.random() * 5) + 1),
+		$("#question8").val(Math.floor(Math.random() * 5) + 1),
+		$("#question9").val(Math.floor(Math.random() * 5) + 1),
+		$("#question10").val(Math.floor(Math.random() * 5) + 1)
 	});
 
 
