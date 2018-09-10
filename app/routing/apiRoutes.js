@@ -15,7 +15,7 @@ module.exports = function(app) {
     }
  
     var defaultMatch = 0;
-    var minimumDifference = 10;
+    var minimumDifference = 40;
 
     for(var i = 0; i < friends.length; i++) {
       var totalDifference = 0;

@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 	$('#seed').click(function(){
-		$('#nameInput').val('Kaan');
+		$('#nameInput').val('Deeno The Hun');
 		$('#imageInput').val('https://cdn-images-1.medium.com/max/1600/1*0OHdmdWZx4vSxgWhhgAB0Q.jpeg');
 		$("#question1").val(Math.floor(Math.random() * 5) + 1),
 		$("#question2").val(Math.floor(Math.random() * 5) + 1),
